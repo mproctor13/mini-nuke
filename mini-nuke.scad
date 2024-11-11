@@ -36,6 +36,10 @@ tube_length=main_dia*1.5+main_dia*1.15+mid_section;
 
 
 // Show most parts of rocket.
+$vpr = ([60,0,210]);
+$vpt = ([0,0,90]);
+$vpf = (15);
+$vpd = (2000);
 color("#5E6345")  mini_nuke_model();
 
 
